@@ -1,0 +1,13 @@
+body{
+    background: rgb(167, 167, 168);
+}
+#acceuil{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 30px;
+    border-radius: 5px;
+    color: aqua;
+    text-align: center;
+    
+}

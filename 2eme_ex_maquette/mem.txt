@@ -1,0 +1,143 @@
+Death to the Stock Photo:
+Special Thanks
+
+A special thanks to Death to the Stok Photo for providing
+the photographs that you see in this template. Visit their website to become a menber
+getting-started/
+
+
+ <div class="row">
+            <div id="tete" class="col-4">
+                <!--debut mon menu-->
+                <nav>
+                    Start Bootstrap
+                </nav>
+
+            </div>
+            <div id="tete1" class="col-8">
+                <!--debut mon menu-->
+                <nav>
+                    About Service Contact
+                </nav>
+
+            </div>
+
+            <!--fin de mon menu-->
+            <div class="col-12">
+                <div class="card bg-dark text-white ">
+
+                    <img src="fond.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h1> Landing Page </h1>
+                        <div id="span">
+                            <span> A Template by Bootstrap </span> <br>
+
+                            <span class="badge badge-light">TWITTER</span>
+                            <span class="badge badge-light">GITHUB</span>
+                            <span class="badge badge-light">in LINKEDIN</span>
+                        </div>
+                       <!-- <br>
+                        <br><br><br><br><br><br><br><br><br><br><br>
+                        
+                            <div  class="col-12" >
+                                <div id="tablette">
+                                    
+                                    Death to the Stock Photo:
+                                    Special Thanks
+                                    
+                                    A special thanks to Death to the Stok Photo for providing
+                                    the photographs that you see in this template. Visit their website to become a menber
+                                </div>
+                            </div>
+                        -->
+                        
+                    </div>
+                    <div id="tablette" class="col-12">
+                       <span> Death to the Stock Photo:
+                        Special Thanks
+                        
+                        A special thanks to Death to the Stok Photo for providing
+                        the photographs that you see in this template. Visit their website to become a menber
+                    </span>
+                    </div>   
+
+
+                </div>
+
+                <div class="container">
+                    xx
+                </div>
+            </div>
+    </header>
+</body>
+
+</html>
+
+
+
+
+
+**********************************************************************************************************************
+<div class="row">
+            <div id="tete" class="col-4">
+                <!--debut mon menu-->
+                <nav>
+                    Start Bootstrap
+                </nav>
+
+            </div>
+            <div id="tete1" class="col-8">
+                <!--debut mon menu-->
+                <nav>
+                    About Service Contact
+                </nav>
+
+            </div>
+
+            <!--fin de mon menu-->
+            <div class="col-12">
+                <div class="card bg-dark text-white ">
+
+                    <img src="fond.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h1> Landing Page </h1>
+                        <div id="span">
+                            <span> A Template by Bootstrap </span> <br>
+
+                            <span class="badge badge-light">TWITTER</span>
+                            <span class="badge badge-light">GITHUB</span>
+                            <span class="badge badge-light">in LINKEDIN</span>
+                        </div>
+                    </div>
+                   <!-- <div id="tablette" class="col-12">
+                       <span> Death to the Stock Photo:
+                        Special Thanks
+                        
+                        A special thanks to Death to the Stok Photo for providing
+                        the photographs that you see in this template. Visit their website to become a menber
+                    </span>
+                    </div>   -->
+
+
+                </div>
+            </div>
+            <div class="row mx-auto pt-8">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <h5 class="card-title">Death to the Stock Photo:</h5>
+                            <h5 class="card-title">Special Thanks</h5>
+                            <p class="card-text">A special thanks to Death to the Stok Photo for providing
+                                the photographs that you see in this template. Visit their website to become a menber</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="tablette.png" class="card-img" alt="...">
+                        </div>
+                    </div>
+            </div>
+    </header>
+</body>
+
+</html>

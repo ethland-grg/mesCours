@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="alert alert-warning" role="alert">
+        Ceci est une alerte d'avertissement..
+    </div>
+
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Bienvenue</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque temporibus recusandae totam assumenda
+            voluptatem harum eaque aliquam cum, reprehenderit libero? Aliquid, maiores molestias ab quisquam ullam
+            laboriosam voluptates rem aliquam.</p>
+        <hr>
+        <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque temporibus recusandae totam
+            assumenda vo</p>
+    </div>
+
+    <div class="alert alert-warning" role="alert">
+        <b>Attention</b> : ceci est une alerte d'avertissement..
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <!-- créer des onglets-->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                aria-selected="true">Produit 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                aria-selected="false">Produit 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                aria-selected="false">Produit 3</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Dolorum officia corporis ut iste. Veniam quae, voluptas voluptatum in
+            minus commodi esse exercitationem quis quisquam est non sit sunt ullam facilis!</div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Deleniti reprehenderit distinctio porro minus inventore recusandae. Vero saepe
+            cupiditate neque adipisci.</div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Blanditiis amet obcaecati eligendi cum ea, praesentium repellendus aliquam?
+            Nostrum ipsam, ipsum obcaecati a ullam perferendis voluptas laboriosam optio maiores porro sit!</div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                One of three columns
+            </div>
+            <div class="col-sm">
+                One of three columns
+            </div>
+            <div class="col-sm">
+                One of three columns
+            </div>
+        </div>
+    </div>
+
+    <button type="button">Primary</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+
+    <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <div class="input-group-text">
+      <input type="checkbox" aria-label="Checkbox for following text input">
+    </div>
+  </div>
+  <input type="text" class="form-control" aria-label="Text input with checkbox">
+</div>
+
+<div class="input-group">
+  <div class="input-group-prepend">
+    <div class="input-group-text">
+      <input type="radio" aria-label="Radio button for following text input">
+    </div>
+  </div>
+  <input type="text" class="form-control" aria-label="Text input with radio button">
+</div>
+
+<div class="row">
+  <div class="col-lg-offset-3 col-lg-6">
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button">Hate it</button>
+      </span>
+      <input type="text" class="form-control" placeholder="Product name">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button">Love it</button>
+      </span>
+    </div>
+    <div>
+        <button class="btn btn-primary pull-left">Left div</button>
+        <button class="btn btn-primary pull-right">Right div</button>
+    </div>
+
+
+    <div class="panel panel-default panel-horizontal">
+            <div class="panel-heading">
+                <button class="btn btn-success" type="button"><span class="fa fa-check"></span></button>
+            </div>
+            <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque saepe iusto nulla molestias quis esse incidunt veritatis exercitationem dolore officiis. Nam quos iusto officiis ullam itaque voluptatum fuga assumenda culpa!</div>
+            <div class="panel-footer">
+                <button class="btn btn-danger" type="button"><span class="fa fa-flag"></span></button>
+            </div>
+        </div>
+  </div>
+
+</body>
+
+</html>

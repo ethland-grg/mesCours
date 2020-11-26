@@ -1,0 +1,292 @@
+#fond{
+    
+    background: rgb(222, 225, 228);
+     border: solid 3px gray;
+     width: 600px;
+     border-radius: 50px;
+     border-style: double;
+     
+ }
+ 
+ 
+ .fond1{
+     background: rgb(255, 252, 214);
+     width: 560px;
+     margin-left: 21px;
+     border-radius: 15px;
+     opacity: 0.6;
+ }
+ .global{
+     margin-left: auto;
+     margin-right: auto;
+     
+ }
+ h1{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: xxx-large;
+  margin-left: 160px;
+  margin-right: 160px;
+  background: salmon;
+  border-radius: 50px;
+  border-style: double;
+  
+ 
+  }
+ h2{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  }
+  .bloc_titre{
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      
+      
+  }
+  .joueur {
+      border: solid 2px;
+      border-radius: 60px;
+      width: 160px;
+      height: 25px;
+      text-align: center;
+      border-style: groove;
+      background-color: aqua;
+      text-align-last: center;
+      
+ 
+  }
+ 
+ 
+  .bloc_led{
+      display: flex;
+      justify-content: center ;
+      justify-content: space-around;
+      padding-top: 15px;
+  }
+  .led{
+      display: flex;
+     border-radius:  7px;
+     width: 60px;
+     text-align: center;
+     background: antiquewhite;
+      
+ 
+  }
+ 
+  .dim_led{
+     background: blanchedalmond;
+     border-radius: 20px;
+     border-style: groove;
+     border: black, 2px;
+     width: 15px;
+     height: 15px;
+  }
+  .bloc_joueur{
+      display: flex;
+      justify-content: space-around;
+      padding-top: 30px;
+      align-items: center;
+  }
+  .bout_joueur{
+     border: solid 5px;
+       border-radius: 15px;
+       border-style: groove;
+       width: 160px;
+       height: 150px;
+       text-align: center;
+ 
+  }
+ 
+  .compteur {
+       border: solid 5px;
+       border-radius: 15px;
+       border-style: groove;
+       width: 60px;
+       height: 60px;
+       text-align: center;
+       padding-top: 50;
+       font-size: xxx-large;
+  }
+  .bout_pilo{
+      display: flex;
+      padding-left: 50px;
+      justify-content: center;
+      justify-content: space-around;
+      padding-top: 20px;
+  }
+ 
+  .cadre{
+      background: url(Cad1.png)  no-repeat;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      justify-content: space-around;
+      width: 210px;
+      background-size: 60%;
+      padding-left:-14px;
+     
+  }
+  
+  .dim{
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      padding-right: 100px;
+      padding-top: 10px;
+      width: 85px;
+      height: 65px;
+  }
+  .redim{
+      width: 50px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
+  }
+ .pierre {
+      background: url(pierre.png) no-repeat;
+      background-size: contain;
+      width: 160px;
+      height: 150px;
+ }
+ .feuille{
+     background: url(feuille.png) no-repeat;
+     background-size: contain;
+     width: 160px;
+     height: 150px;
+ }
+ .ciseaux{
+     background: url(ciseaux.png) no-repeat;
+     background-size: contain;
+     width: 160px;
+     height: 150px;
+ }
+ 
+ .cadre img {
+     cursor: pointer;
+ }
+ .reset{
+     background: darkturquoise;
+     border: solid 0px;
+     border-radius: 15px;
+     border-style: groove;
+     text-align: right;
+     padding-right: 20px;
+     margin-left: 348px;
+     margin-right: 70px;
+     margin-top: 12px;
+ }
+ 
+ 
+ #final {
+     background: burlywood;
+     border: solid 2px;
+     border-radius: 30px;
+     border-style: double;
+     width: 450px;
+     height: 50px;
+     margin-top: 10px;
+     margin-bottom: 45px;
+     margin-left: 45px;
+     text-align: center;
+     font-size: x-large;
+     
+ }
+ .redim{
+     background: red;
+     border: solid 0px;
+     border-radius: 15px;
+     border-style: groove;
+ }
+ h2 {
+     background: green;
+     border-style: groove;
+     border: solid 2px;
+     border-radius: 15px;
+     margin-left: 150px;
+     margin-right: 150px;
+ 
+ }
+ 
+ #resultat {
+     width: 100%;
+     height: 50px;
+     margin-top: 20px;
+     text-align: center;
+     font-size: xx-large;
+ }
+ 
+ @keyframes clint {
+     from {
+       opacity: 0;
+     }
+   
+     to {
+       opacity: 1;
+     }
+   }
+ 
+ .cligne {
+     animation: clint 1s linear infinite;
+ }
+ #direction{
+     display: flex;
+    justify-content: space-evenly;
+ }
+ #scorejoueur {
+     display: flex;
+     justify-content: center;
+     background: cornflowerblue;
+     border-radius: 25px;
+     border: solid, 1px, black;
+     height: 50px;
+     width: 50px;
+     margin-left: 25px;
+     text-align: center;
+     font-size: xxx-large;
+     border-style: groove;
+ }
+ 
+ #meilleur {
+     display: flex;
+     justify-content: center;
+     background: cornflowerblue;
+     border-radius: 25px;
+     border: solid, 1px, black;
+     height: 50px;
+     width: 50px;
+     margin-left: 25px;
+     text-align: center;
+     font-size: xxx-large;
+     border-style: groove;
+ }
+ #titre {
+     display: flex;
+     justify-content: center;
+     background: rgb(236, 6, 26);
+     border-radius: 25px;
+     border: solid, 1px, black;
+     height: 25px;
+     width: 200px;
+     margin-left: 25px;
+     text-align: center;
+     font-size: x-large;
+     border-style: groove;
+ }
+ #titre1 {
+     display: flex;
+     justify-content: center;
+     background: rgb(236, 6, 26);
+     border-radius: 25px;
+     border: solid, 1px, black;
+     height: 25px;
+     width: 200px;
+     margin-left: 25px;
+     text-align: center;
+     font-size: x-large;
+     border-style: groove;
+ }
+ 
+ 

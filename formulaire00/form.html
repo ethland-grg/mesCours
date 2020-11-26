@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body class="linear-gradient">
+    <div id="contenu">
+        <div id="fondForm">
+            <div id="titre">
+                <h4> EVENT REGISTRATION FORM </h4>
+
+            </div>
+            <form id="bloc" action="" method="POST">
+
+                <div class="bloc1"> <!--id="champNom"-->
+                    <div class="lab">
+                        <label for="Nom"> Name</label>
+                    </div>
+                    <div>
+                        <div> <input type="text" name=" Nom" value="" class="champ" /></div>
+                        <span class="indiceNom"> First Name</span>
+                    </div>
+                    <div>
+                        <input type="text" name="Nom" value="" class="champ" /> <br>
+                        <span class="indiceNom">Last Name</span>
+                    </div>
+
+                </div>
+
+                <!--  <div class="indiceNom">
+               
+                <div class="nom"> First Name</div>
+                <div class="nom"> Last Name</div>
+                </div> -->
+
+
+
+                <div class="bloc1">
+                    <div class="lab"><label for="">Compagny</label></div>
+                    <div> <input type="text" name=" Company" value="" class="champ1" /></div>
+                </div>
+
+                <div class="bloc1">
+                    <div class="lab"> <label for="">E-mail</label></div>
+                    <div><input type="mail" name=" E-mail" value="" class="champ4" /></div>
+                </div>
+
+
+                <div class="bloc1">
+                    <div class="lab"> <label for="Phone"> Phone</label></div>
+                    <div>
+                        <div><input type="text" name=" areaCode" value="" class="champ2" /></div>
+                        <div class="indiceNom"> Area Code</div>
+                    </div>
+                    <div>
+                        <input type="text" name="phoneNumber" value="" class="champ3" />
+                        <div class="indiceNom"> Phone Number</div>
+                    </div>
+                </div>
+                
+                <div class="bloc1">
+                    <div class="lab">
+                        <label for="subject"> Subject</label>
+                    </div>
+                    <div>
+                        <select name="subject" class="champ5">
+                            <option value="" class="selection">Choose Option</option>
+                            <option value="Subject1" class="selection">Subject1</option>
+                            <option value="Subject2" class="selection">subject2</option>
+                            <option value="Subject3" class="selection">subject3</option>
+                            <option value="Subject4" class="selection">Subject4</option>
+                            <option value="Subject5" class="selection">subject5</option>
+                            <option value="Subject6" class="selection">subject6</option>
+                        </select>
+                    </div>
+
+
+                </div>
+                <div id="pied">
+                    <div>Are you an existing customer ?</div>
+
+
+                    <div id="blocChek">
+                        <div class="chek">
+                            <div><input type="radio"></div>
+                            <div><label for="yes">Yes</label></div>
+                        </div>
+                        <div class="chek">
+                            <div><input type="radio"></div>
+                            <div><label for="no">No</label></div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div id="valider">
+
+                    <input type="submit" id="val" value="REGISTER">
+
+                </div>
+
+
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

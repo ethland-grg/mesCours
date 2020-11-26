@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesTâche</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</body>
+<body onload="utilisateur()">
+    <div id="fond" class="global">
+      <div class="fond1">
+        <!-- mon titre de mon interface-->
+        <h1> Mes tâches</h1>
+        <!-- *********************************************************************************** -->
+  
+        <!-- les participant au jeux -->
+        <div class="bloc_titre">
+          <div class="joueur">
+            <div> </div>
+            <div class="arrondi">
+              <div id="nomutilsateur">U 1 Tel</div>
+            </div>
+          </div>
+  
+          <div class="joueur">
+            <div> </div>
+            <div class="arrondi"> UC </div>
+  
+          </div>
+        </div>
+        <!-- ********************************************************************************** -->
+  
+        <!-- mes compteur du scors que les participant gagnent -->
+        <div class="bloc_led">
+          <div class="led">
+  
+            <div id="led1" class="dim_led"></div>
+            <div id="led2" class="dim_led"></div>
+            <div id="led3" class="dim_led"></div>
+  
+          </div>
+          <div class="led">
+            <div id="led4" class="dim_led"></div>
+            <div id="led5" class="dim_led"></div>
+            <div id="led6" class="dim_led"></div>
+          </div>
+        </div>
+        <!-- ********************************************************************************** -->
+        <div id="resultat" class=""></div>
+        <!-- ici les blocs que je voudrais afficher le nombre des parties et quelle jeux
+          les participants ont choisis -->
+        <div class=" bloc_joueur">
+          <div id="bordJouer" class="bout_joueur">
+            <div id="sing_joueur"></div>
+          </div>
+          <div id="compt" class="compteur">0</div>
+          <div id="bordJouer1" class="bout_joueur">
+            <div id="sing_ordi"></div>
+          </div>
+        </div>
+        <!-- ********************************************************************************** -->
+  
+        <!-- ici je veux superposer mes cadres avec pierre feuille ciseau-->
+  
+        <div class="bout_pilo" class="global">
+  
+          <div class="cadre"> <img class="dim" src="pierre.png" alt="" onclick="boutonClique(1)"></div>
+          <div class="cadre"> <img class="dim" src="feuille.png" alt="" onclick="boutonClique(2)"></div>
+          <div class="cadre"> <img class="dim" src="ciseaux.png" alt="" onclick="boutonClique(3)"></div>
+        </div>
+  
+        <!--************************************************************************************-->
+  
+  
+        <!-- ********************************************************************************** -->
+        <div class="reset"> <button onclick="boutoRest()"> recommencez </button> </div>
+  
+        <!-- ici mon incitaion au itulisateur à choir son jeux -->
+        <div id="incitation"> 
+          <div class="redim">
+            <img id="cligne" width="50px" class="cligne" src="fleche.svg" alt="">
+          </div>
+          <h2>Cliquez un bouton</h2>
+        </div>
+        <div id="direction">
+        <div id="titre">Score</div> 
+        <div id="titre1">Meilleur Score</div>
+        </div>
+        <div id="direction">
+          <div id="scorejoueur">0</div>
+          <div id="meilleur">0</div>
+        </div>
+  
+        <!-- ********************************************************************************** -->
+        <!-- l'affichage du gangnat-->
+        <div id="final" class="ResultatFinal"></div>
+  
+      </div>
+    </div>
+  
+  
+  
+  </body>
+</html>

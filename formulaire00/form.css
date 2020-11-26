@@ -1,0 +1,158 @@
+#contenu{
+    margin-top: 50px;
+}
+
+.linear-gradient {
+   /* background: linear-gradient(20deg, rgb(32, 150, 247), rgb(236, 21, 236)) no-repeat;*/
+   background: linear-gradient(to top right, blue, rgb(196, 22, 240));
+    height: 900px;
+}
+
+#fondForm{
+    width: 680px;
+    height: 670px;
+    background: white;
+    margin: auto;
+    border-radius: 15px;
+}
+#titre{
+    width: 680px;
+    height: 55px;
+    background: rgb(48, 47, 47);
+    border-top: 1px solid;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+H4{
+    text-align: center;
+    color: white;
+    
+}
+/* ccccccccccccccccccc  LIEN UTIL POUR FLEX https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
+.indiceNom{
+   /* display: flex;
+    justify-content:  space-evenly;
+    align-content: flex-start;
+    margin-left: -20px;
+    margin-right: 50px;*/
+    color: rgb(180, 178, 176);
+}
+
+#bloc{
+    margin-top: 50px;
+}
+/*
+#champNom{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+*/
+.lab{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.champ{
+    height:  40px;
+    width: 220px;
+    background:  rgb(226, 222, 218);
+    border: 0.001px solid rgb(209, 204, 204);
+    border-radius: 10px;
+    
+}
+
+.champ1{
+    height:  40px;
+    background:  rgb(226, 222, 218);
+    border: 0.001px solid rgb(209, 204, 204);
+    border-radius: 10px;
+    width: 480px;
+    margin-right: 16px;
+    
+}
+
+.champ2{
+    height:  36px;
+    width: 80px;
+    background:  rgb(226, 222, 218);
+    border: 0.001px solid rgb(209, 204, 204);
+    border-radius: 10px;
+    
+}
+
+
+.champ3{
+    height:  40px;
+    width: 360px;
+    background:  rgb(226, 222, 218);
+    border: 0.001px solid rgb(209, 204, 204);
+    border-radius: 10px;
+    
+}
+.champ4{
+    height:  40px;
+    background:  rgb(226, 222, 218);
+    border: 0.001px solid rgb(209, 204, 204);
+    border-radius: 10px;
+    width: 500px;
+    margin-right: 16px;
+    
+}
+
+.champ5{
+    height:  40px;
+    background:  rgb(226, 222, 218);
+    border: 0.001px solid rgb(209, 204, 204);
+    border-radius: 10px;
+    width: 500px;
+    margin-right: 16px;
+    
+}
+.bloc1{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+h3{
+    padding-top: 50px;
+}
+
+.chek{
+    display: flex;
+    margin-left: -65px;
+}
+
+#blocChek{
+    display: flex;
+   justify-content: space-around;
+   width: 200px;
+   margin-top: 10px;
+   
+}
+
+#pied{
+    padding-top: 25px;
+    margin-left: 30px;
+}
+#valider{
+    margin-left: 25px;
+    padding-top: 30px;
+    
+}
+
+#val{
+    background: rgb(250, 97, 97);
+    width: 140px;
+    height: 40px;
+    color: white;
+    border: 1px solid;
+    border-radius: 4px;
+}
+

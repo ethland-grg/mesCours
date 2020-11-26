@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TP - Créer page web dynamique</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- GOOGLE FONTS -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- MON CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Debu de mon header " remarque de mon experience je ne même pas besoin de la balise main reste à savoir à quoi cette balise consiste -->
+    <header style="background-image: url(images/img2.jpg); background-size: cover; height: 25rem;">
+        <div>
+            <div class="container fluid">
+                <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#"> <img src="images/logo1.png" alt=""
+                            style="width: 2rem; height: auto;"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                        <li class="form-inline my-2 my-lg-0 ">
+
+                            <span class="btn btn-outline-success my-2 my-sm-0" type="submit">06 92 01 23 45</span>
+                        </li>
+                    </div>
+
+                </nav>
+                <div class="jumbotron jumbotron-fluid text-center bg-transparent py-0 h-100 d-flex align-items-center"
+                    id="jumbotron">
+                    <div class=" text-center align-self-center col-lg-12 col-sm-12" style="margin-top: 5rem;">
+                        <h1>TITRE</h1>
+                        <p>Some quick example text to build on<br>Some quick example text <br>Some quick
+                            example
+                            text to build
+                            on</p>
+                    </div>
+                </div>
+
+            </div>
+    </header>
+    <!-- ---------- -----------fin de mon header-- ----------------------  ---------------->
+    <!-- Mes section commences ici-->
+
+    <!-- début section carte visite-->
+    <section class="bloc-card">
+        <div class="container " style="margin-top: -6rem">
+
+            <div class="row d-flex">
+
+                <div class="card col-md-4 col-sm-12" style=" padding-left: 0em;
+                                padding-right: 0em; ">
+                    <img src="images/img2.jpg" class="card-img-top" alt="..." style="height: 10rem;">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and
+                            make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-sm-12" style="padding-left: 0em;
+                                padding-right: 0em; ">
+                    <img src="images/img3.jpg" class="card-img-top" alt="..." style="height:10rem">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and
+                            make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card col-md-4 col-sm-12" style="padding-left: 0em;
+                                padding-right: 0em;">
+                    <img src="images/img4.jpg" class="card-img-top" alt="..." style="height:10rem">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and
+                            make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class=" text-center align-self-center col-lg-12 col-sm-12">
+                <h1>TITRE</h1>
+                <p>Some quick example text to build on<br>Some quick example text <br>Some quick
+                    example
+                    text to build
+                    on</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- fin section carte visite-->
+    <!--début section contact-->
+    <section id="contact" style="background-image: url(images/background-about.jpg); background-size: cover; ">
+        <div class="container " style="height: 90vh;" >
+            <div class="row d-flex flex-column contact " style="justify-content: space-around; padding-top: 5.5rem; ">
+                <div class="col-lg-4 " >
+                    <div class="col">
+                        <h1 class="text-white text-uppercase font-weight-bold">titre</h1>
+                    </div>
+                    <div class="col">
+                        <p>Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit.<br />Vestibulum sit amet lectus
+                            ipsum.<br />Sed maximus dictum interdum.</p>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-light w-10">contactez-moi</button>
+                    </div>
+                </div>
+        
+            </div>
+     
+        </div>
+    </section>
+
+    <!-- fin section contact-->
+    <!-- début section services-->
+    <section id="services">
+        <div class="container">
+            <div class=" row d-flex ">
+                <div class="col-md-4 col-sm-12">
+                    <div class="row flex-column">
+                        <div style="margin-left: 1rem;">
+                            <h4>1 ERE TITRE</h4>
+                        </div>
+                        
+                        <div class="flex-self: center;" style="margin-top: 1rem; ">
+                            <ul style=" margin-left: -0.5rem;">
+                            <li>katsaka voanjobory</li>
+                            <li>fory misana tabory dangitra</li>
+                            <li>kiraoraoka vao mahita fihainana</li>
+                            <li>ny vola no maha rangahy</li>
+                            <li>te hatory aho le eninana</li>
+                        </ul>
+                        </div>
+                    </div>
+                   
+                    
+                </div>
+                <div class="  col-md-8 col-sm-12">
+                    <div>
+                        
+                    </div>
+                    <h4> 2 EME TiTRE</h4>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div>
+                                <div class="carousel-item active">
+row  d-flex flex-row                                               
+                                             <div class="d-flex text-center justify-content-center">
+                                                    <p>
+                                                        ososososo ggmg A partir  <br>
+                                                        ososososo ggmg hhshhqhqh hy((y)) hhshs() <br>
+                                                        ososososo ggmg A partir 
+                                                    </p>
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div style="background-color:rgb(119, 119, 119); height: 10rem; ">
+                                        <div class="container h-100">
+                                            <div class="d-flex h-100 w-100 flex-column justify-content-center">
+                                                <div class="d-flex text-center justify-content-center">
+                                                    <p>
+                                                        ososososo ggmg A partir ttaat <br>
+                                                        ososososo fhh ggmg <br>
+                                                        ososososo ggmg A partir  ghhy(())
+                                                    </p>
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div style="background-color: rgb(175, 175, 175); height: 10rem;">
+                                        <div class="container h-100">
+                                            <div class="d-flex h-100 w-100 flex-column justify-content-center">
+                                                <div class="d-flex text-center justify-content-center">
+                                                    <p>
+                                                        ososososo ggmg A partir  <br>
+                                                        ***ososososo ggmg ghhaqdft ***<br>
+                                                        ososososo ggmg A partir 
+                                                    </p>
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row profil" style="margin-left: 19rem; 
+                     margin-top: 0.6rem; margin-right: 3rem; justify-content: space-between;">
+
+                                <div class="" id="logo" style="background-image: url(images/slider-01.jpg); background-size: cover;">
+                            
+                                </div>
+                                <div class="" style="margin-top: 0.2rem;">
+                                    <p>
+                                        profil plus logo à ranger
+                                    </p>
+                                </div>
+                            </div>
+                        <a class="carousel-control-prev " href="#carouselExampleFade" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon " style="margin-top: -3.5em;" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" style="margin-top: -3.5em;" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- fin section services-->
+    <!-- début section contact integration map-->
+    <section id="map">
+        <div style="background-color: rgb(182, 178, 178);">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-md-4 col-sm-12" style="margin-top: 1rem;">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7454.646670049451!2d55.482149327730745!3d-20.899307263104866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1605257077870!5m2!1sfr!2sfr"
+                             width="100%" frameborder="0">
+                        </iframe>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="row d-flex flex-column">
+                            <div class="col col-sm-12">
+                                <h2>contact</h2>
+                                <p>Lorem ipsum dolor sithhhhs hhshhshshhs hshshshshsh hhshhs Vestibulum sit amet lectus.</p>
+                                
+                            </div>
+                            <div class="col reseaux col-sm-12 " style="margin-top: 0.6rem; margin-left: 1rem; padding-right: 10rem;">
+                                <div class=" icone row d-flex justify-content-md-between">
+                                    <div><i class="fab fa-facebook-f"></i></div>
+                                    <div><i class="fab fa-twitter"></i></div>
+                                    <div><i class="fab fa-github"></i></div>
+                                    <div><i class="fab fa-linkedin-in"></i></div>
+                                  
+                                </div>
+                            </div>
+                           
+                        </div>
+                      
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="row d-flex flex-column">
+                            <div class="col">
+                                <h2>newsletters</h2>
+                            <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                <input type="email" class="form-control" placeholder="name@example.com">
+                            </div>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-dark">subsrcibe</button>
+                            </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- et enfin ma derniere et la fin de la  section contact -->
+
+    <footer>
+        <div id="footer" style="background-color: rgb(68, 68, 68); color: white;">
+            <div class="container">
+                <div class=" d-md-flex justify-content-md-between">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur.<br>
+                        Vestibulum sit amet lectus ipsum.</p>
+                    </div>
+                    <div>
+                        <p>Sed maximus dictum interdum.</p>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+      
+    </footer>
+
+
+
+
+
+    <!-- jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"row  d-flex flex-row></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

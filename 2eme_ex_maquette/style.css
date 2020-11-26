@@ -1,0 +1,173 @@
+.header{
+    height: 739px;
+    background: url(fond.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -247px;
+}
+
+.header1{
+    height: 200px;
+    background: url(image2.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -600px;
+    
+    
+}
+
+@media screen and (max-width: 1024px){
+    .header{
+        height: 639px;
+        background-size: auto;
+    }
+
+    .header1{
+        background-size: auto;
+    }
+}
+
+h1{
+    
+    text-align: center ;
+    padding-top: 90px;
+}
+
+h2 {
+    color: white;
+    text-align: left ;
+    padding-top: 90px;
+    padding-left: 350px;
+    size: 60px;
+}
+#trait{
+    color:  white;
+    height: 1px;
+    width: 250px;
+    background-color: white;
+
+    
+}
+#span{
+    text-align: center;
+
+}
+#tete{
+    text-align: start;
+
+}
+#tete1{
+    text-align: end;
+   
+}
+
+.description{
+    padding-top: 20px;
+}
+
+#img{
+    
+    max-width: 90%;
+    height: auto;
+    
+}
+
+#img1{
+    
+    max-width: 60%;
+	height: auto;
+}
+
+#twitter{
+    
+    width: 15px;
+	height: 15px;
+}
+
+#github{
+    width: 15px;
+	height: 15px;
+}
+#linkedin{
+    width: 20px;
+	height: 20px;
+}
+#gros{
+    font-size: 16px;
+}
+
+#img2{
+    
+    max-width: 50%;
+	height: auto;
+}
+
+#img3{
+    
+    max-width: 100%;
+    height: auto;
+    padding: px;
+    padding-top: 150px;
+    
+}
+
+#img4{
+    
+    max-width: 120%;
+    height: auto;
+    padding-left: 0px;
+    
+}
+
+.container1{
+    padding-top: 50px;
+    
+    
+}
+
+.container2{
+    padding-top: 50px;
+    
+}
+#pied{
+    display: flex;
+   
+}
+#tete1{
+    display: flex;
+    
+    
+}
+p{
+    padding-left: px;
+}
+#bouton{
+    padding-top: 300px;
+  
+}
+#b{
+    color: white ;
+   
+
+    font-size: xx-large;
+    padding-top: 50px;
+}
+
+#c{
+    font-size: large;
+    padding-top: 59px;
+
+}
+
+#signature p{
+    padding: .5rem 1rem;
+}
+#footer{
+padding-top: 200px;
+}
+
+.bleu{
+    color: blue;
+}
+
+#incit{
+    text-shadow: -1px -1px white, 1px 1px #333
+}

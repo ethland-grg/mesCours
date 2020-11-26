@@ -1,0 +1,47 @@
+.fond{
+    margin-top: 30px;
+    border: 2px solid greenyellow;
+    height: 900px;
+    background-color: lightblue;
+    border-radius: 25px;
+    border-style: groove;
+
+}
+#page, #task
+{
+    display: none;
+}
+
+
+#pages{
+    background: fixed beige;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-style: groove;
+    height: 600px; 
+}
+
+.pages > .page:target ~.page:last-child,
+.pages > .page {
+    display: none;
+}
+
+.pages > :last-child,
+.pages > .page:target {
+    display: block;
+}
+
+#btn{
+     margin-top: .1rem;;
+     padding: 0px;
+}
+
+.cercle{
+    /* background: red; */
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    border-style: groove;
+    cursor: pointer;
+}

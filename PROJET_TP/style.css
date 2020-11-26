@@ -1,0 +1,30 @@
+
+
+.CarteVisit {
+    /** ( ici je veux juste encadrer ma carrte visite;..)
+
+     **/
+    border: 1px solid;
+    border-color: black;
+    border-collapse: collapse;
+    height: 500px;
+    width: 800px;
+}
+
+#timbre {
+    /** l'emplacement  de mon timbre et la taille d'img 
+    width= ahavo**/
+    float: left;
+    width: 100px
+}
+#Adre{
+    margin-top:120px ;
+    margin-left: 300px;
+    font-size: x-large;
+}
+#trait{
+    border-top: 2px solid black;
+    margin-left: 300px;
+    margin-top: 70px;
+    margin-right: 100px;
+}

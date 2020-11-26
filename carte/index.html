@@ -1,0 +1,140 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
+<head>
+    <title>Mon Google Maps</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <!-- Elément Google Maps indiquant que la carte doit être affiché en plein écran et
+		qu'elle ne peut pas être redimensionnée par l'utilisateur -->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <!-- Inclusion de l'API Google MAPS -->
+    <!-- Le paramètre "sensor" indique si cette application utilise détecteur pour déterminer la position de l'utilisateur -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript">
+        function initialiser() {
+            var latlng = new google.maps.LatLng(-21.078441, 55.416234);
+            //objet contenant des propriétés avec des identificateurs prédéfinis dans Google Maps permettant
+            //de définir des options d'affichage de notre carte
+            var options = {
+                center: latlng,
+                zoom: 11,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+            //constructeur de la carte qui prend en paramêtre le conteneur HTML
+            //dans lequel la carte doit s'afficher et les options
+            var carte = new google.maps.Map(document.getElementById("carte"), options);
+        }
+        function initialiser() {
+            var latlng = new google.maps.LatLng(-21.338611, 55.458611);
+
+            var options = {
+                center: latlng,
+                zoom: 11,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+            var carte = new google.maps.Map(document.getElementById("carte"), options);
+
+            /****************Nouveau code****************/
+
+            //création du marqueur
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-21.338611, 55.458611),
+                map: carte
+            });
+
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-21.312222, 55.545833),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-21.249722, 55.600278),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-21.133611, 55.476944),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-21.117500, 55.450000),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-21.103889, 55.433333),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-21.066111, 55.450833),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-21.053056, 55.454167),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-21.037778, 55.410000),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-21.068611, 55.399444),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-21.050556, 55.380556),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-20.972333, 55.324833),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-20.962778, 55.357500),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-20.938833, 55.331222),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-20.896111, 55.376944),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-20.906111, 55.425000),
+                map: carte
+            });
+            var marqueur = new google.maps.Marker({
+                position: new google.maps.LatLng(-20.884722, 55.442222),
+                map: carte
+            });
+            /********************************************/
+            /* marqueur bus */
+            var parcoursBus = [
+                new google.maps.LatLng(46.781367900048, 6.6401992834884),
+                new google.maps.LatLng(46.780821285011, 6.6416348016222),
+                new google.maps.LatLng(46.780496546047, 6.6421830461926),
+                new google.maps.LatLng(46.779835306991, 6.6426765713417),
+                new google.maps.LatLng(46.777748677169, 6.6518819126808),
+                new google.maps.LatLng(-21.117500, 55.450000),
+                new google.maps.LatLng(-21.037778, 55.410000),
+                new google.maps.LatLng(-21.068611, 55.399444),
+                new google.maps.LatLng(-21.050556, 55.380556),
+                new google.maps.LatLng(-20.972333, 55.324833),
+                new google.maps.LatLng(-20.962778, 55.357500),
+                new google.maps.LatLng(-20.938833, 55.331222),
+                new google.maps.LatLng(-20.896111, 55.376944),
+                new google.maps.LatLng(-20.906111, 55.425000),
+                new google.maps.LatLng(-20.906111, 55.425000),
+                new google.maps.LatLng(-20.884722, 55.442222),
+                
+            ];
+        }
+    </script>
+
+</head>
+
+<body onload="initialiser()">
+    <div id="carte" style="width:100%; height:100%"></div>
+</body>
+
+</html>>

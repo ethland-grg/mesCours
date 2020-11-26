@@ -1,0 +1,192 @@
+kusma.nework
+
+
+<script>
+ /*  var nom, jeux, machine;
+
+   function mathRandomInt(a, b) {
+  if (a > b) {
+    // Swap a and b to ensure a is smaller.
+    var c = a;
+    a = b;
+    b = c;
+  }
+  return Math.floor(Math.random() * (b - a + 1) + a);
+}
+
+
+nom = window.prompt('entrez votre nom');
+jeux = window.prompt('entrez pierre ou feuille ou ciseaux');
+machine = mathRandomInt(1, 3);
+if (machine == 1) {
+  machine = 'pierre';
+} else if (machine == 2) {
+  machine = 'feuille';
+} else {
+  machine = 'ciseaux';
+}
+if (machine == jeux) {
+  window.alert(['vouz avez choisir t  ',jeux,'   robo a choisit  ',jeux,'    c\'est l\'égalité    '].join(''));
+} else if (machine == 'pierre' && jeux == 'feuille' || machine == 'feuille' && jeux == 'ciseaux' || machine == 'ciseaux' && jeux == 'pierre') {
+  window.alert(['vouz avez choisit   ',jeux,'   robo a choisit  ',jeux,'  vouz avez gagné  ',nom].join(''));
+} else {
+  window.alert(['vouz avez choisit    ',jeux,'   robo a choisirt ',machine,'    vous avez perdu , recommencez une partie  ',nom].join(''));
+} */
+</script>    
+
+
+apelle texte html dans js.
+function utilisateur() {
+    var nom = prompt("entrez votre nom svp");
+    document.getElementById("nomutilsateur").innerText = nom;
+
+pour tester son fonction :mettre onload="utilisateur()" ou onclick
+
+fonction aleatoir
+
+function mathRandomInt() {
+   
+    return Math.round(Math.random()*3)
+}
+
+
+Avec le gestionnaire d'événement onmouseOver, on peut prévoir qu'après le survol d'un image par l'utilisateur, une autre image apparaisse (pour autant qu'elle soit de la même taille).
+le code est relativement simple.
+
+<HTML>
+<HEAD>
+<SCRIPT LANGUAGE="Javascript1.1">
+function lightUp() {
+document.images["homeButton"].src="button_hot.gif"
+}
+function dimDown() {
+document.images["homeButton"].src="button_dim.gif"
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<A HREF="#" onmouseOver="lightUp();" onmouseOut="dimDown();">
+<IMG SRC="button_dim.gif" name="homeButton" width=100 height=50 border=0> </A>
+</BODY>
+</HTML>
+
+
+https://www.pierre-giraud.com/javascript-apprendre-coder-cours/addeventlistener-gestion-evenement/
+
+
+
+<html>
+<body>
+
+<h1>The onclick Event</h1>
+
+<p>The onclick event is used to trigger a function when an element is clicked on.</p>
+
+<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
+</body>
+</html>
+
+ao anty div ka misy zanany de firstchid no iantsona azy nefa tsy afaka manao alaline
+lastchild ny manaraka
+
+<div> Ici div parent
+  <div> Ici premier div enfant (firstchild)</div>
+  <div> Ici deuxième div enfant </div>
+  .
+  .
+  .
+  <div> Ici dernier div enfant (lastchild)</div>
+</div>
+
+evenement clik onclick aorinann'izay tina clikena anaty html plus paramettre; avy eo mametraka 
+conditio (params) anaty javascript
+
+
+
+***************************************************************
+<!-- mon titre de mon interface-->
+    <h1> Mishupille</h1>
+    <!-- *********************************************************************************** -->
+
+    <!-- les participant au jeux -->
+    <div class="bloc_titre">
+      <div class="joueur">
+        <div> </div>
+        <div class="arrondi">
+          <div id="nomutilsateur">U 1 Tel</div>
+        </div>
+      </div>
+
+      <div class="joueur">
+        <div> </div>
+        <div class="arrondi"> UC </div>
+
+      </div>
+    </div>
+    <!-- ********************************************************************************** -->
+
+    <!-- mes compteur du scors que les participant gagnent -->
+    <div class="bloc_led">
+      <div class="led">
+
+        <img id="led1" class="dim_led" src="led.png" alt="">
+        <img id="led2" class="dim_led" src="led.png" alt="">
+        <img id="led3" class="dim_led" src="led.png" alt="">
+
+      </div>
+      <div class="led">
+        <img id="led4" class="dim_led" src="led.png" alt="">
+        <img id="led5" class="dim_led" src="led.png" alt="">
+        <img id="led6" class="dim_led" src="led.png" alt="">
+      </div>
+    </div>
+    <!-- ********************************************************************************** -->
+    <div id="resultat" class=""></div>
+    <!-- ici les blocs que je voudrais afficher le nombre des parties et quelle jeux
+        les participants ont choisis -->
+    <div class=" bloc_joueur">
+      <div id="sing_joueur" class="bout_joueur">
+        <div></div>
+      </div>
+      <div id="compt" class="compteur">0</div>
+      <div id="sing_ordi" class="bout_joueur">
+        <div></div>
+      </div>
+    </div>
+    <!-- ********************************************************************************** -->
+
+    <!-- ici je veux superposer mes cadres avec pierre feuille ciseau-->
+
+    <div class="bout_pilo" class="global">
+
+      <div class="cadre"> <img class="dim" src="pierre.png" alt="" onclick="boutonClique(1)"></div>
+      <div class="cadre"> <img class="dim" src="feuille.png" alt="" onclick="boutonClique(2)"></div>
+      <div class="cadre"> <img class="dim" src="ciseaux.png" alt="" onclick="boutonClique(3)"></div>
+    </div>
+
+    <!--************************************************************************************-->
+
+
+    <!-- ********************************************************************************** -->
+    <div class="reset"> <button onclick="boutoRest()"> recommencez </button> </div>
+
+    <!-- ici mon incitaion au itulisateur à choir son jeux -->
+    <div id="incitation"> <img class="redim" src="fleche.svg" alt=""></div>
+    <h2 onclick="utilisateur()">Cliquez un bouton</h2>
+    <!-- ********************************************************************************** -->
+    <!-- l'affichage du gangnat-->
+    <div id="final" class="ResultatFinal"></div>
+  </div>
+
+  <img src="2em_fond.png" alt="">

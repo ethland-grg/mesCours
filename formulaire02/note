@@ -1,0 +1,58 @@
+champ1 à revoir
+champ et champ2, 3 c'est bon 
+
+
+<div>
+
+                    <div id="lab">
+
+                        <label for="Nom"> Name</label>
+                        <label for="">Compagny</label>
+                        <label for="">E-mail</label>
+                        <label for="Phone"> Phone</label>
+                        <label for="subject"> Subject</label>
+
+                    </div>
+                </div>
+                <div>
+                    <!--***************************************************-->
+                    <div id="champNom">
+                        <div>
+                            <div> <input type="text" name=" Nom" value="" class="champ" /></div>
+                            <span class="indiceNom"> First Name</span>
+                        </div>
+                        <div>
+                            <input type="text" name="Nom" value="" class="champ" /> <br>
+                            <span class="indiceNom">Last Name</span>
+                        </div>
+
+                    </div>
+                    <div> <input type="text" name=" Company" value="" class="champ1" /></div>
+                    <div><input type="mail" name=" E-mail" value="" class="champ1" /></div>
+                    <div id="champPhone">
+                        <div>
+                            <div><input type="text" name=" areaCode" value="" class="champ2" /></div>
+                            <div class="indiceNom"> Area Code</div>
+                        </div>
+                        <div>
+                            <input type="text" name="phoneNumber" value="" class="champ3" />
+                            <div class="indiceNom"> Phone Number</div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <select name="subject" class="champ1">
+                            <option value="" class="selection">Choose Option</option>
+                            <option value="Subject1" class="selection">Subject1</option>
+                            <option value="Subject2" class="selection">subject2</option>
+                            <option value="Subject3" class="selection">subject3</option>
+                            <option value="Subject4" class="selection">Subject4</option>
+                            <option value="Subject5" class="selection">subject5</option>
+                            <option value="Subject6" class="selection">subject6</option>
+                        </select>
+                    </div>
+
+
+
+                </div>
