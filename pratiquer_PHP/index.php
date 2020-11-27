@@ -1,7 +1,7 @@
 
 
 <!-- mannipuler les lettres et mot ( strings) -->
-
+<?php
 /*
 echo strlen ("Hello Landry ' '"); // afficher le nombre des lettres dans une chaine caractère en php
 echo strrev ( "Landry");         // inverser des mots en php
@@ -123,23 +123,16 @@ asort($colors);
 
 
 ?>
+
 */
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<?php 
+include 'footer.php'
 
-<form action="welcome.php" method="post">
-First name: <input type="text" name="fname">
-</form>
-Welcome <?php echo $_POST["fname"]; ?>
-</body>
-</html>
+echo 
+readfile("webdict.txt")
+;
+;?>
 
 
 
