@@ -2,8 +2,9 @@
 
 <!-- mannipuler les lettres et mot ( strings) -->
 <?php
-/*
 echo strlen ("Hello Landry ' '"); // afficher le nombre des lettres dans une chaine caractère en php
+/*
+
 echo strrev ( "Landry");         // inverser des mots en php
 
 // remplacer un mot dans une autre variable
@@ -111,28 +112,22 @@ foreach($age as $x => $y) {  // parcourir dans un tableau
 }
 
 $colors = array("red", "green", "blue", "yellow"); 
-print_r($colors);
+print_r($colors); // ire telo ireo samy mi afficher izay tina fa samy manan ny particulier-ny
+var_dump($colors);
+echo 
 sort($colors); /// je ne comprend pas du tout ça ne reagit pas du tout
 rsort($colors);
 asort($colors);
+*/
 
-
-
+// readline php, c'est la même façon de promp en javascript = proposer aus utilisateur 
 
 
 
 
 ?>
 
-*/
 
-<?php 
-include 'footer.php'
-
-echo 
-readfile("webdict.txt")
-;
-;?>
 
 
 
