@@ -1,5 +1,5 @@
 <?php
-/*
+
 $classe = [
     [
     "nom" => "ETHEVE",
@@ -22,7 +22,8 @@ $classe = [
 ];
 var_dump($classe); // 2 methode fo pa oublier pour manupulier le tableau
 print_r($classe);
-*/
+
+/*
 $andrana = readline("Veillez taper un nombre svp :");
 
 if  $andrana = ("Landry"){
@@ -30,7 +31,7 @@ if  $andrana = ("Landry"){
 } else {
     readline("Veillez taper un nombre svp :");
 }
-
+*/
 
 
 ?>
