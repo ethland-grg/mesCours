@@ -3,9 +3,27 @@
 ?>
 
 
+
 <?php require 'header.php'; ?>
+
+<?php
+      $prenom = htmlspecialchars($_POST["prenom"]);
+      $nom = htmlspecialchars($_POST["nom"]);
+      $_SESSION["prenom"] = $prenom;
+      $_SESSION["nom"] = $nom;
+      echo "Les données du formulaire ont été mémorisées.<br>";
+
+      
+    $prenom = $_SESSION["prenom"];
+    $nom = $_SESSION["nom"];
+   /* echo "Les données mémorisées dans les variables de session sont bien accessibles :<br><ul>"; */
+    echo "<li>" .$_SESSION["prenom"]."</li>";
+    echo "<li>".$_SESSION["nom"]."</li></ul>";
+  ?>
+
+
 <div class="ontainer pt-5 mt-5 df=flex text-center ">
-    <h1 > Ajouter un produit aus enchère</h1>
+    <h1 > Ajouter un produit aux enchères</h1>
 </div>
 
 <div class="text-justify">
@@ -29,11 +47,11 @@
     <!-- fin de la barre barre d'acceil-->
     <div id="contenu" class="mt-5 pt-5" >
         
-    <form action="../index.php" method="POST">
+    <form action="traitement.php" method="POST">
             <div class="form-group row">
                 <label for="nom_produit" class="col-md-3 col-form-label font-weight-bold">Nom du produit:</label>
                 <div class="col-md-9">
-                    <input type="text" class="form-control" id="nom_produit2" name="nom_produit2"
+                    <input type="text" class="form-control" id="nom_produit2" name="nom_produit"
                         placeholder="Exemple : iphone 6, etc." pattern="[a-zA-Z0-9 ]+" required>
                 </div>
             </div>
@@ -96,20 +114,20 @@
 
                 <!-- **  ******  la fin de mon contenu pour le formulaire            ******* ***********    ******** *******-->
                 <?php
-      $prenom = htmlspecialchars($_POST["nom_produit"]);
-      $nom = htmlspecialchars($_POST["nom"]);
-      $_SESSION["prenom"] = $prenom;
-      $_SESSION["nom"] = $nom;
+      $nom_produit = htmlspecialchars($_POST["nom_produit"]);
+      $nom = htmlspecialchars($_POST["description2"]);
+      $_SESSION["nom_produit"] = $nom_produit;
+      $_SESSION["description2"] = $nom;
       echo "Les données du formulaire ont été mémorisées.<br>";
       echo "<a href=\"lecture-session.php\">Cliquez sur ce lien pour vérifier.</a>";
     ?>
        
-    <?php
+    <?php/*
     $prenom = $_SESSION["nom_produit"];
     $nom = $_SESSION["nom"];
     echo "Les données mémorisées dans les variables de session sont bien accessibles :<br><ul>";
     echo "<li>\$_SESSION[\"prenom\"] vaut ".$_SESSION["prenom"]."</li>";
-    echo "<li>\$_SESSION[\"nom\"] vaut ".$_SESSION["nom"]."</li></ul>";
+    echo "<li>\$_SESSION[\"nom\"] vaut ".$_SESSION["nom"]."</li></ul>";*/
   ?>
 
     </div>

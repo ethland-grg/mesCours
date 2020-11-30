@@ -14,13 +14,15 @@ $title = "page d'accueil";
   </div>
 
 
-  <?php
-    $prenom = $_SESSION["nom_produit"];
-    $nom = $_SESSION["nom"];
-    echo "Les données mémorisées dans les variables de session sont bien accessibles :<br><ul>";
-    echo "<li>\$_SESSION[\"prenom\"] vaut ".$_SESSION["prenom"]."</li>";
-    echo "<li>\$_SESSION[\"nom\"] vaut ".$_SESSION["nom"]."</li></ul>";
-  ?>
+  <form name="MonFormulaire" method="post" action="ajoutproduit.php">
+    <table><tr><td><label>Prénom</label></td>
+      <td><input type="text" name="prenom"></td></tr>
+      <tr><td><label>Nom</label></td>
+      <td><input type="text" name="nom"></td></tr>
+      <tr><td><input type="submit" name="Nom" value="Envoyer"></td>
+      <td></td></tr>
+    </table>
+    </form>
 
 
 <?php require 'footer.php'; ?>
