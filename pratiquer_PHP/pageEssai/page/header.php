@@ -1,5 +1,5 @@
 
-<?php 
+<?php /*
 function nav_item (string $lien, string $titre):sting{
     $class ='vav-item';
     if ($_SERVER['SCRIPT_NAME'] === $lien){
@@ -10,7 +10,7 @@ function nav_item (string $lien, string $titre):sting{
             </li>';
 
 }
-
+*/
 ?>
 
 

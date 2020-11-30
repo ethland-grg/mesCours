@@ -1,3 +1,8 @@
+<?php
+  session_start();
+?>
+
+
 <?php require 'header.php'; ?>
 <div class="ontainer pt-5 mt-5 df=flex text-center ">
     <h1 > Ajouter un produit aus enchère</h1>
@@ -90,8 +95,23 @@
             </div>
 
                 <!-- **  ******  la fin de mon contenu pour le formulaire            ******* ***********    ******** *******-->
-        
+                <?php
+      $prenom = htmlspecialchars($_POST["nom_produit"]);
+      $nom = htmlspecialchars($_POST["nom"]);
+      $_SESSION["prenom"] = $prenom;
+      $_SESSION["nom"] = $nom;
+      echo "Les données du formulaire ont été mémorisées.<br>";
+      echo "<a href=\"lecture-session.php\">Cliquez sur ce lien pour vérifier.</a>";
+    ?>
        
+    <?php
+    $prenom = $_SESSION["nom_produit"];
+    $nom = $_SESSION["nom"];
+    echo "Les données mémorisées dans les variables de session sont bien accessibles :<br><ul>";
+    echo "<li>\$_SESSION[\"prenom\"] vaut ".$_SESSION["prenom"]."</li>";
+    echo "<li>\$_SESSION[\"nom\"] vaut ".$_SESSION["nom"]."</li></ul>";
+  ?>
+
     </div>
 </section>
    
