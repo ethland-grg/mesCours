@@ -39,6 +39,7 @@ function nav_item (string $lien, string $titre):sting{
 <link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
 <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon.ico">
 <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+<link rel="stylesheet" href="form.css">
 <meta name="theme-color" content="#563d7c">
 
 
